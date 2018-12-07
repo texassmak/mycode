@@ -30,4 +30,5 @@ print(crayons.magenta('magenta string', bold=True))
 # print 'white string' in white
 print(crayons.white('white string', bold=True))
 
-print(crayons.green('Jeremiah', bold=True) + crayons.blue('McAtee', bold=True))
+# print my name in two colors
+print(crayons.green('Jeremiah ', bold=True) + crayons.blue('McAtee', bold=True))
